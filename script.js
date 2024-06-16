@@ -18,7 +18,7 @@ function gravity(){
     characterTop = characterTop + 3;
     }
     character.style.top = characterTop + "px";
-    if ((characterTop >= 575) || (blockLeft < 25) && (blockLeft > -50) && ((cTop < holeTop) || (cTop > holeTop+175)) ){
+    if ((characterTop >= 575) || (blockLeft < 25) && (blockLeft > -50) && ((cTop < holeTop) || (cTop > holeTop+275)) ){
         alert("Game Over, Score:- " + counter);
         block.style.left = 600 + "px";
         character.style.top = 100 + "px";
