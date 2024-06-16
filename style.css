@@ -19,7 +19,7 @@
     animation: block 2s infinite;
 }
 #hole{
-    height: 200px;
+    height: 300px;
     width: 50px;
     background-color: aqua;
     position: relative;
